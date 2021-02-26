@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OJE.ooo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="button">
+      <p>W</p>
+      <p>2</p>
+    </div>
+    <div class="button">
+      <p>E</p>
+      <p>O</p>
+    </div>
+    <div class="button">    
+      <p>L</p>
+      <p>J</p>
+    </div>  
+    <div class="button">  
+      <p>C</p>
+      <p>E</p>
+    </div>  
+    <div class="button">  
+      <p>O</p>
+      <p>.</p>
+    </div>  
+    <div class="button">  
+      <p>M</p>
+      <p>o</p>
+    </div>  
+    <div class="button">  
+      <p>E</p>
+      <p>o</p>
+    </div>  
+    <div class="button">  
+      <p>&hearts;</p>
+      <p>o</p>
+    </div>
+  </div>
+  
+  <svg>
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in='SourceGraphic' stdDeviation='10' />
+        <feColorMatrix in='name' mode='matrix' values=' 1 0 0 0 0
+                                                        0 1 0 0 0
+                                                        0 0 1 0 0
+                                                        0 0 0 30 -15' />
+        <feBlend in='SourceGraphic' />                                               
+      </filter>
+    </defs>
+  </svg>
+
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
